@@ -3,6 +3,8 @@ import styled from 'styled-components';
 
 import BootstrapCarousel from 'react-bootstrap/Carousel';
 
+import { Items } from '../../models/Item'
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Container = styled('div')`
@@ -65,16 +67,7 @@ const Image = styled('img')`
     right: 0;
 `;
 
-export interface Item {
-    image: string;
-    link: string;
-    title: string;
-    caption: string;   
-}
-
-export interface CarouselProps {
-    items: ReadonlyArray<Item>
-}
+export interface CarouselProps extends Items {}
 
 const Carousel = (props: CarouselProps) => (
 <Container>
