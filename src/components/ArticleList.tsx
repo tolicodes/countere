@@ -52,4 +52,4 @@ export default ({ items }: IArticleList) => (
             </Article>
         )) }
     </Container>
-)
+);
