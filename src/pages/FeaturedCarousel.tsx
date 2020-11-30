@@ -21,7 +21,7 @@ export default () => {
         title,
         link: fullUrl,
         image: assetUrl,
-        caption: excerpt
+        caption: excerpt || ''
     }))}
     />
   )

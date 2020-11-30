@@ -55,6 +55,8 @@
     "@storybook/node-logger": "^6.1.9",
     "@storybook/preset-create-react-app": "^3.1.5",
     "@storybook/react": "^6.1.9",
+    "@types/react-router-dom": "^5.1.6",
+    "@types/styled-components": "^5.1.4",
     "storybook": "^6.1.9"
   }
 }
